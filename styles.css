@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111;
+    color: #fff;
+    font-family: system-ui, sans-serif;
+}
+/*
+#circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #3b82f6;
+}*/
+
+#number-display {
+    position: absolute;
+    font-size: 8rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.05em;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
